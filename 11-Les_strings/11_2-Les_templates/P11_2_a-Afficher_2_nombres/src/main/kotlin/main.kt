@@ -1,3 +1,6 @@
 fun main() {
-    // put your code here
+    var (a, b) = readLine()!!.split(" ").map { it.toInt() }
+    print ("$a ")
+    println(b)
+
 }
