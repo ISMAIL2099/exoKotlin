@@ -3,5 +3,9 @@ fun main() {
 }
 
 fun solution(numbers: List<Int>): Int {
-    // put your code here
+    var res=0
+    for (i in numbers.indices){
+        res+=numbers[i]
+    }
+    return res
 }

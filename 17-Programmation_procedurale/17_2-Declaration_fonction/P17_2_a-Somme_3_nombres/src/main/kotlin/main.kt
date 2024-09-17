@@ -1,4 +1,6 @@
-// write your function here
+fun sum(a:Int,b:Int,c:Int):Int{
+    return a+b+c
+}
 
 fun main() {
     val a = readLine()!!.toInt()

@@ -3,5 +3,11 @@ fun main() {
 }
 
 fun solution(strings: List<String>, str: String): Int {
-    // put your code here
+    var res = 0
+    for (i in strings.indices){
+        if (strings[i]==str){
+            res+=1
+        }
+    }
+    return res
 }
