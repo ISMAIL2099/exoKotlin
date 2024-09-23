@@ -1,4 +1,6 @@
-// write the BankAccount class here
+class BankAccount(deposited:Int,withdrawn:Int){
+    var balance = deposited-withdrawn
+}
 
 
 fun main() {

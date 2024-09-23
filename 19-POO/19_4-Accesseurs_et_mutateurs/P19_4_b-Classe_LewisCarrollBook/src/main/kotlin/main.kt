@@ -1,4 +1,8 @@
-// write your class here
+class LewisCarrollBook(){
+    var name:String = ""
+    var author:String = ""
+    var price :Int = 0
+}
 
 
 fun main() {

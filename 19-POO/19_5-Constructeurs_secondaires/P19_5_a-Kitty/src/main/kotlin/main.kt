@@ -1,5 +1,8 @@
 class Kitty {
-    // write here
+    constructor(couleur:String,age:Int)
+    constructor(age:Int,couleur:String)
+    constructor(couleur:String)
+    constructor(age:Int)
 }
 
 

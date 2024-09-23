@@ -1,5 +1,16 @@
 class City(val name: String) {
-    var population: Int
+    var population: Int=0
+
+    fun tooMuch(){
+        if (population>10000000){
+            population=500000
+        }
+    }
+    fun notEnough(){
+        if (population<0){
+            population=0
+        }
+    }
 }
 
 fun main() {

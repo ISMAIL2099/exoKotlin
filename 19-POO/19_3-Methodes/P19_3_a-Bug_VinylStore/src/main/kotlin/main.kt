@@ -1,7 +1,8 @@
 // fix it
 class VinylStore(vinyl: String) {
+    var a : String= vinyl
     fun printVinyl() {
-        println(this.vinyl)
+        println(this.a)
     }
 }
 
