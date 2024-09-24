@@ -1,6 +1,6 @@
 class LewisCarrollBook(){
     var name:String = ""
-    var author:String = ""
+    var author:String = "Lewis carroll"
     var price :Int = 0
 }
 
